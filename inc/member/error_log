@@ -1,0 +1,20 @@
+[08-Jul-2020 10:34:35 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:34:35 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:34:35 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:34:35 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'tembel3k'@'localhost' (using password: NO) in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 25
+[08-Jul-2020 10:34:35 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 25
+[08-Jul-2020 10:40:00 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:40:00 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:40:00 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:40:00 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'tembel3k'@'localhost' (using password: NO) in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 25
+[08-Jul-2020 10:40:00 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 25
+[08-Jul-2020 10:43:08 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:43:08 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:43:08 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 3
+[08-Jul-2020 10:43:08 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'tembel3k'@'localhost' (using password: NO) in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 25
+[08-Jul-2020 10:43:08 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/diataid1/kasir.diata.id/inc/member/proses_tambah_member.php on line 25
+[08-Jul-2020 10:43:54 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_edit_member.php on line 3
+[08-Jul-2020 10:43:54 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/diataid1/kasir.diata.id/inc/member/proses_edit_member.php on line 3
+[08-Jul-2020 10:43:54 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/diataid1/kasir.diata.id/inc/member/proses_edit_member.php on line 3
+[08-Jul-2020 10:43:54 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'tembel3k'@'localhost' (using password: NO) in /home/diataid1/kasir.diata.id/inc/member/proses_edit_member.php on line 25
+[08-Jul-2020 10:43:54 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/diataid1/kasir.diata.id/inc/member/proses_edit_member.php on line 25

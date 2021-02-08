@@ -1,0 +1,2 @@
+[13-Jun-2020 20:02:57 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[13-Jun-2020 20:02:57 Asia/Jakarta] PHP Fatal error:  Unknown: Failed opening required '/home/diataid1/kasir.diata.id/class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in Unknown on line 0

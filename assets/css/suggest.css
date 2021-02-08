@@ -1,0 +1,13 @@
+/* Suggest */
+#suggest {
+  position: absolute;
+  z-index: 5;
+  border-left: silver 1px solid;
+  padding: 0 0 0 10px;
+  background-color: #fff;
+}
+
+span.pilihan {
+  display: block;
+  cursor: pointer;
+}
