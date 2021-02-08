@@ -82,6 +82,9 @@ if (isset($_GET['tgldari']) && !empty($_GET['tgldari']) && isset($_GET['tglsampa
 									</div>
 								</div>
 							</form>
+							<div class="form-group mx-sm-3 mb-2 ml-3">
+								<a href="inc/laporan/export_lap_perbarang.php?dari=<?php echo "$_GET[tgldari]"; ?>&sampai=<?php echo "$_GET[tglsampai]"; ?>"><button class="btn btn-primary shadow"><i class="fa fa-file-excel"></i> Export Penjualan</button></a>
+							</div>
 						</div>
 
 						<div class="row mt-5">
@@ -109,7 +112,7 @@ if (isset($_GET['tgldari']) && !empty($_GET['tgldari']) && isset($_GET['tglsampa
 										</thead>
 										<tbody>
 											<?php
-											$ambil = mysql_query("SELECT tb_barang.kode_barang,tb_barang.nama_barang,tb_barang.harga_jual,SUM(tb_barang.harga_jual*tb_barang_terjual.jumlah_jual) AS total,SUM(tb_barang_terjual.jumlah_jual) as jumlah_beli FROM tb_barang JOIN tb_barang_terjual ON tb_barang.kode_barang=tb_barang_terjual.kode_barang JOIN tb_penjualan ON tb_penjualan.no_nota=tb_barang_terjual.no_nota WHERE $sql_filter_tabel GROUP BY tb_barang.nama_barang ORDER BY jumlah_beli DESC LIMIT 10");
+											$ambil = mysql_query("SELECT tb_barang.kode_barang,tb_barang.nama_barang,tb_barang.harga_jual,SUM(tb_barang.harga_jual*tb_barang_terjual.jumlah_jual) AS total,SUM(tb_barang_terjual.jumlah_jual) as jumlah_beli FROM tb_barang JOIN tb_barang_terjual ON tb_barang.kode_barang=tb_barang_terjual.kode_barang JOIN tb_penjualan ON tb_penjualan.no_nota=tb_barang_terjual.no_nota WHERE $sql_filter_tabel GROUP BY tb_barang.nama_barang ORDER BY jumlah_beli DESC ");
 											$no = 1;
 											while ($pecah = mysql_fetch_assoc($ambil)) {
 											?>
